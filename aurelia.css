@@ -1,0 +1,159 @@
+body{
+    width: 100%;
+    height: 100%;
+    min-width: 600px;
+}
+
+.upper-wave{
+    background-color:#ffed8a;
+}
+
+.title2{
+    background-color: #f6e378;
+    text-align: center;
+    margin: 0px;
+    padding-top:0.5px;
+    padding-bottom:20px;   
+}
+
+h1{
+ font-family: "Bodoni MT", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+ font-size: 50px; 
+ font-style: normal; 
+ font-variant: normal; 
+ font-weight: 700; 
+ line-height: 26.4px; 
+}
+
+p{
+font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+font-size: 20px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 700; 
+line-height: 26.4px;
+}
+
+.lower-wave{
+    background-color:rgb(255, 218, 116)
+}
+
+.below-wave{
+    
+    text-align: center;
+    background-color: rgb(255, 218, 116);
+    padding-top: 10px;
+    max-width:100%;
+    margin-inline: auto;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card{
+    object-fit: cover;
+    width:100%;
+    max-height: 100%;
+    aspect-ratio: 1/1.5;
+    border-radius:5px;
+    
+    
+}
+.card-img{
+    aspect-ratio: 1/1;
+    width:100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius:5px;
+}
+
+.stacked{
+    display:grid; 
+    width:100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius:5px;
+    
+}
+
+.stacked > * {
+    grid-column:1;
+    grid-row:1;
+    
+}
+.card-content{
+    background-color: rgba(255, 255, 255, 0.692);
+    align-self: end;
+    margin: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 0.25rem 1rem rgb(000);
+    border-radius: 5px;
+    
+
+}
+
+
+.footer{
+    background-color: rgb(255, 160, 116);
+    padding-top: 0.5px;
+    text-align: center;
+    padding-bottom:20px;
+    max-width:100%;
+}
+
+
+.btn {
+    background-color:rgb(255, 123, 118) ;
+    transition: 0.3s;
+    width:100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius:5px;
+    padding:5px;
+    
+}
+
+.btn:hover{
+background-color: rgba(255, 123, 118, 0.4);}
+
+a{
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+    text-decoration:wavy;
+    color:black;
+}
+
+.meeting{
+    width:200px;
+
+}
+
+.btn-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.end{
+    background-color: rgb(255, 160, 116);
+    padding-top: 30px;
+    text-align: center;
+}
+
+h4{
+font-size: 20px;
+}
+
+h5,h6{
+    font-size:10px;
+    color:rgba(0,0,0,0.5)
+}
+.h55{
+    color:rgba(0,0,0,0.5);
+}
